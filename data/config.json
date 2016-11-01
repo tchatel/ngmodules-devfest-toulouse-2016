@@ -1,0 +1,20 @@
+{
+    "title": "@NgModule",
+    "sections": [
+        {"file": "data/a-pres/slides.md"},
+        {"file": "data/b-intro/slides.md"},
+        {"file": "data/c-syntaxe/slides.md"},
+        {"file": "data/d-providers-config/slides.md"},
+        {"file": "data/e-lazy-loading/slides.md"},
+
+        {}
+    ],
+    "all": [
+        {}
+    ],
+
+    "TODO": [
+        ""
+    ]
+
+}

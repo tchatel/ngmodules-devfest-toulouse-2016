@@ -1,0 +1,162 @@
+
+h1 code, h2 code, h3 code, li code {
+    font-size: 1em;
+    color: #008;
+    font-weight: bold;
+}
+pre.prettyprint {
+    border: 2px solid #c8c8c8;
+    border-radius: 4px; !important;
+    background-color: #f5f1eb;
+}
+
+div.slide.top div.slide-content,
+div.slide.topmargin div.slide-content {
+    vertical-align: top;
+}
+div.slide.topmargin div.slide-content .content {
+    margin-top: 60px;
+}
+
+/* user-defined styles */
+
+.red { color: #880000; }
+.blue { color: #0000aa; }
+.green { color: #008800; }
+
+/*
+div.background {
+    z-index: 0;
+    position: absolute;
+    vertical-align: bottom;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: auto;
+    width: 1024px;
+    height: 768px;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border-width: 0;
+}
+*/
+
+body {
+    overflow:hidden;
+}
+
+.slide {
+}
+
+.slide-content {
+    background: white url(background.png) no-repeat 0 0;
+    display: table-cell;
+    width: 1024px;
+    height: 768px;
+    margin: 0;
+    padding: 0;
+}
+.slide-content .content {
+    margin: 10px 0 0 0;
+    padding: 25px;
+}
+.nobackground .slide-content {
+    display: table-cell;
+    width: 1024px;
+    height: 768px;
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+.nobackground .slide-content .content {
+    margin: 0;
+    padding: 0;
+}
+.nobackground .slide-content p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.slide.bullets ul li ul {
+    font-size: 0.8em;
+}
+.prettyprint {
+    margin: 0 0 0 1em;
+    padding: 0.8em;
+}
+
+div.slide-content table td {
+    padding: 0.1em 1em 0.1em 1em;
+}
+
+div.slide {
+    line-height: 1.2;
+}
+
+div.slide.back {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1.4em;
+    padding: 0;
+}
+div.slide.back div.slide-content {
+    padding: 0;
+}
+div.slide.back h1 {
+    display: inline-block;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.9);
+    position: absolute;
+    top: 480px;
+    left: 100px;
+    padding: 0.2em 0.7em 0.2em 0.7em;
+    border-radius: 7px;
+}
+div.slide.back p {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+div.slide.back img {
+    margin: 0;
+    padding: 0;
+    width: 1020px;
+    height: 740px;
+    border-radius: 10px;
+}
+
+.slide.subsection .content {
+    color: #fff;
+    background-color: #209070;
+    margin: 0;
+    padding: 6px 10px 3px 10px;
+    border-radius: 0;
+}
+
+@media print {
+    body.all #slides {
+        zoom: 1;
+    }
+    .all .slide + .slide {
+        page-break-before: always;
+    }
+    .all div.slide {
+        border: none;
+        margin: 0;
+        float: none;
+        font-size: 120%;
+    }
+    div.slide div.content > ul > li {
+        list-style: square;
+        line-height: 140%;
+    }
+
+    .slide.subsection .content {
+        color: #0ff;
+    }
+
+}
+
+
+
