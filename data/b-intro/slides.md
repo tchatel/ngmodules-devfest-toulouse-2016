@@ -3,7 +3,8 @@
 * 9 août : &nbsp; 2.0 **RC5** <span class="big red">@NgModule</span>
 * 31 août : 2.0 **RC6**
   <span class="smaller">_(1ère vraie Release Candidate)_</span>
-
+* 14 septembre : **2.0.0**
+* 12 octobre : **2.1.0**
 
 
 

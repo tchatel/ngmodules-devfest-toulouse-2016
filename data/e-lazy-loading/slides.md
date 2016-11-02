@@ -31,6 +31,25 @@
     ]);
 
 
+!SLIDE smallercode top ===========================
+
+## lazy + preloading
+
+    export const routing: ModuleWithProviders
+        = RouterModule.forRoot([
+
+      { path: '', redirectTo: 'contact', pathMatch: 'full' },
+
+      { path: 'contact',
+        component: ContactComponent }
+
+      { path: 'crisis',
+        loadChildren: 'app/crisis/crisis.module#CrisisModule' }
+
+    ], {preloadingStrategy: PreloadAllModules});
+
+
+
 !SLIDE subsection ================
 
 # démo

@@ -92,6 +92,17 @@
 
 !SLIDE smallcode ===========================
 
+## Routed Module
+### = Feature Module
+### correspondant à une route
+
+!SLIDE smallcode ===========================
+
+## Routing Module
+### = routage d'un Routed Module
+
+!SLIDE smallcode ===========================
+
 ## Widget Module
 ## (_aka_ Shared Module ?)
 ### components / directives / pipes
