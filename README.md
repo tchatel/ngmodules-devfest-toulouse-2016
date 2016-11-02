@@ -1,4 +1,4 @@
-# @NgModule : Meetup ngParis
-## à la Société Générale (12/09/2016)
+# @NgModule : DevFest Toulouse 2016
+## 03 novembre 2016
 
-Les slides de ma présentation : [cliquez ici pour les voir en ligne](http://tchatel.github.io/meetup-ngparis-sg/index.html).
+Les slides de ma présentation : [cliquez ici pour les voir en ligne](http://tchatel.github.io/ngmodules-devfest-toulouse-2016/index.html).
